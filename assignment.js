@@ -8,7 +8,7 @@ function feetToMile(quantity) {
 function woodCalculator(chair, table, bed) {
     const chairCount = chair * 12;
     const tableCount = table * 18;
-    const bedCount = table * 26;
+    const bedCount = bed * 26;
     return chairCount + tableCount + bedCount;
 }
 
